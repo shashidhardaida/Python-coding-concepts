@@ -53,8 +53,30 @@ print(my_string_LowerCase)
 
 # To get a list of all string methods use below in te interpreter
 dir(my_string)
+help(my_string.capitalize)
+
+# We can check the data type of a variable as shown below
+print(type(my_string))
 
 
+# String Slicing:-
+my_string = "I like Python!"
+print(my_string[0:1]) # This returns the first letter f the string my_string.
+print(my_string[:1])  # Output is first letter i.e. I
+print(my_string[0:12]) # Output is 1st to 12 digits in my_string
+print(my_string[:12]) # Output is 1st to 12 digits in my_string
+print(my_string[1:12]) # Output is 2nd to 12 digits in my_string
+print(my_string[0:13]) # Output is 1st to 13 digits in my_string
+print(my_string[0:-5]) # It will give output from 1st to 14-5=9 digits in my_string
+print(my_string[:]) # It will give output of entire string
+print(my_string[2:]) # It will give output from 3rd to remaining all digits in the string
+
+'''
+We can use string slicing for parsing fixed width
+records in files or occasionally for parsing complicated file names that follow a very specific naming
+convention. I have also used it in parsing out values from binary-type files. Any job where you need
+to do text file processing will be made easier if you understand slicing and how to use it effectively
+'''
 
 
 
