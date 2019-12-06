@@ -1,3 +1,3 @@
 # Python
 Python Tutorials
-It contains my Python tutorilas
+It contains my Python tutorials
