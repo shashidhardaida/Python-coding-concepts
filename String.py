@@ -2,7 +2,7 @@ msg ="Hello world"
 print(msg)
 print(msg.capitalize())
 
-another_string = 'String with single quotes'
+another_string = 'String with single quotes !!'
 print(another_string)
 
 a_multiline_string ='''This is the string with----- more
