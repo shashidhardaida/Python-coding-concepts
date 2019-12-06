@@ -5,7 +5,7 @@ print(msg.capitalize())
 another_string = 'String with single quotes'
 print(another_string)
 
-a_multiline_string ='''This is the string with more
+a_multiline_string ='''This is the string with----- more
 than one line'''
 print(a_multiline_string)
 
